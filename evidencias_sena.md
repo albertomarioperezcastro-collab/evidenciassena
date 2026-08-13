@@ -23,3 +23,16 @@ Algoritmo mini_juego
 	Escribir "          "
 	Escribir ' '
 	Escribir "                                       "
+	Si contador>0 Y contador <= 10 Entonces
+		Escribir ' felicidades logro conseguir el numero en: ', contador + 1 , ' intentos'
+	FinSi
+	Si contador>10 Y contador < 15 Entonces
+		Escribir ' vaya, lo pudistes aver hecho mejor, mejor suerte para la proxima, lo conseguistes en: ', contador + 1, 'intentos'
+	FinSi
+	Si contador > 15 Entonces
+		Escribir ' vaya que mala suerte se pudo aver hecho mejor, lo conseguistes en: ', contador + 1, 'intentos'
+	FinSi
+	Escribir "     "
+	Escribir " gracias por jugar "
+	Escribir "     "
+FinAlgoritmo
